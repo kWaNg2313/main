@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@600&family=Sriracha&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+   /* font-family: 'Courier New', Courier, monospace;*/
+    
+}body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(109, 183, 252);
+     background-image: url('../img/blur.png');
+    
+     
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+/*Hero*/
+section#hero{
+    margin: 100px;
+}
+
+
+
+.carousel-inner{
+    padding-right:17%;
+    padding-left: 17%;
+   
+    
+}
+img {
+    width: 650px;
+    padding: 1px;
+    border: 1px solid #021a40;
+border-radius: 0 0 20px 20px;
+   
+    
+}.card{
+    margin: 20px; background-color: rgba(255, 255, 255, 0.349);
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2pc;
+    border-color: #021a40;
+   
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 0 20px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.card:hover{
+    scale: 1.05;
+    /* color: rgb(209, 202, 202); */
+    background-color: rgba(192, 190, 188, 0.842);
+}.btn btn-primary{
+    position:fixed
+}.en{
+    padding: 20px;
+}.card-text{
+    padding-left: 40px;
+    font-family: 'Sriracha', cursive;
+
+}
+.card-body{
+   
+    color: rgb(0, 0, 0);
+   
+    
+}.d-block {
+    width: 100px;
+    height: 450px;
+}.card-title{
+    font-family: 'Pridi', serif;
+
+}.carousel {
+    padding-left:2% ;
+}
