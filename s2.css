@@ -9,7 +9,7 @@
 body{
     height: 100vh;
     background-color: rgb(255, 255, 255);
-     background-image: url('/img/เมืองลับแลหลัง.png');
+     background-image: url('img/เมืองลับแลหลัง.png');
     
     background-size: cover;
     background-position: center;
